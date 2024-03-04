@@ -51,8 +51,7 @@ int main()
 
     while(1)
     {
-        strncpy(buffer, "好好好", sizeof(buffer) - 1);
-
+        strncpy(buffer, "778899", sizeof(buffer) - 1);
         write(sockfd, buffer, sizeof(buffer));
 
         read(sockfd, recvbuffer, sizeof(recvbuffer) - 1);

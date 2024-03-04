@@ -11,7 +11,6 @@
 
 #define SERVER_PORT 8080
 #define MAX_LISTEN 128
-#define LOCAL_ADDRESS "172.27.105.168"
 #define BUFFER_SIZE 128
 
 // void sigHander(int sigNum)
